@@ -65,7 +65,7 @@ header ul li {
 li {
    display: flex;
    color: #f28636;
-  margin: 15px;
+   margin: 15px;
    
 }
 
@@ -134,15 +134,22 @@ a:hover {
   }
 
 /* banner*/
+
+.banner1 {
+    width: 1024px;
+    float: right;
+}
+
           
-.banner {
+.banner2 {
     padding: 25px;
-    width: 80%;
+    width: 70%;
     height: 280px;
+    margin-right: 50%;
    
 }
 
-/* area alteral teste*/
+/* area lateral teste*/
 #area-postagens {
 	width: 660px;
 	float: right;
@@ -162,7 +169,8 @@ a:hover {
 .conteudo-lateral {
 	background: white;
 	padding: 10px;
-	margin-bottom: 20px;
+    margin-bottom: 20px;
+
 }
 
 .postagem-lateral {
@@ -213,6 +221,7 @@ a:hover {
     color: #fff;
     font-weight: 600;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 .shop {
     margin: 15px;
