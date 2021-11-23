@@ -5,13 +5,14 @@
 }
 
 body {
-    background-color: #294864;
+    background-color: black;
 }
 
 .container {
     text-align: center;
     width: 80%;
     margin: 0 auto;
+    background-color: #f28636;
     border: 2px solid yellow;
    
 }
@@ -22,24 +23,24 @@ body {
 
 #area-cabecalho {
      padding: 12px;
-     background-color: #FFF;
+     background-color: #fff;
      border: 4px solid green;
 }
 
 #area-logo {  
     width: 10%;
-    background-color: #FFF;
-
+    
 }
 
 .logo {
     width: 306px;
     height: 219px;
-    display: block;
+    display: flex;
 }
 
 .area-menu {
-    width: 30%;
+    display: block;
+    width: 100%;
     margin: 5px;
     padding: 15px;
     border: 4px solid red
@@ -67,14 +68,12 @@ header ul li {
 
 li {
    color: #294864;
-   margin: 15px;
-   margin-top: 12em;
-
+   margin: 50px 15px 20px;
+   
 }
 
 ul {
-    list-style: none;
-  
+    list-style: none;  
 }
 
 a {
@@ -83,11 +82,12 @@ a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
     margin: 10px;
+
 }
 
 
 a:link, a:visited {
-	color: #f08a3c;
+	color: #fff;
 }
 
 a:hover {
@@ -95,16 +95,44 @@ a:hover {
 }
 
 #area-cabecalho a:link, #area-cabecalho a:visited {
-	color: black;
+	color: #f28636;
 	padding: 8px 12px;
 }
 
 a:hover {
-	color: #FFF;
-	background: #f08a3c;
+	color: rgb(177, 92, 12);
+	background: #f28636;
 	text-decoration: none;
 }
 
+#divBusca{
+    background-color:#fff;
+    border:solid 1px;
+    border-radius:4px;
+    width:600px;
+    margin-top: 200px;
+    margin-left: 50px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:10px;
+    font-size:15px;
+    border:none;
+    margin-top: 10px;
 
+  }
+  #icone {
+    float: right;
+    margin: 5px;
+    padding: 5px;
+  }
 
-
+/* banner*/
+          
+.banner {
+    padding: 25px;
+    width: 80%;
+   
+}
