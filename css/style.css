@@ -10,7 +10,7 @@ body {
 
 .container {
     text-align: center;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     background-color: #fff;
     border: 2px solid red;
@@ -152,12 +152,13 @@ a:hover {
 /* area lateral teste*/
 #area-postagens {
 	width: 660px;
-	float: right;
+	float: left;
 }
 
 #area-lateral {
-	width: 240px;
-	float: right;
+	width: 280px;
+    height: 500px;
+	float: left;
 }
 
 .postagem{
@@ -168,9 +169,13 @@ a:hover {
 
 .conteudo-lateral {
 	background: white;
-	padding: 10px;
+	padding: 15px;
     margin-bottom: 20px;
+    margin: 20px;
+}
 
+.conteudo-lateral a {
+    text-decoration: none;
 }
 
 .postagem-lateral {
@@ -227,3 +232,5 @@ a:hover {
     margin: 15px;
     color: #fff;
 }
+
+
