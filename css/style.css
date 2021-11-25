@@ -308,13 +308,13 @@
   }
   
   #btn_todas:checked ~ .todas-imagens .cftv, 
-  #btn_todas:checked ~ .todas-imagens .interfone, 
+  #btn_todas:checked ~ .todas-imagens .interfonia, 
   #btn_todas:checked ~ .todas-imagens .fechadura{
     display: flex;
   }
   
   #btn_cftv:checked ~ .todas-imagens .todas, 
-  #btn_cftv:checked ~ .todas-imagens .interfone, 
+  #btn_cftv:checked ~ .todas-imagens .interfonia, 
   #btn_cftv:checked ~ .todas-imagens .fechadura{
     display: none;
   }
@@ -326,7 +326,7 @@
   }
   
   #btn_fechadura:checked ~ .todas-imagens .todas, 
-  #btn_fechadura:checked ~ .todas-imagens .interfone, 
+  #btn_fechadura:checked ~ .todas-imagens .interfonia, 
   #btn_fechadura:checked ~ .todas-imagens .cftv{
     display: none;
   }
@@ -587,7 +587,7 @@
   }
   
   .produto-botao:hover {
-    background-color: red;
+    background-color: #f28636;
     transition: 0.3s;
   }
   
