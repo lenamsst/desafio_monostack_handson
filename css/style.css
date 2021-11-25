@@ -1,4 +1,4 @@
-/*Limpar formatações padrão*/
+/*limpar formatações padrão*/
 * {
     margin: 0;
     padding: 0;
@@ -13,20 +13,15 @@
   .container {
     max-width: 100%;
     background-color: #fff;
-    border: 2px solid green;
     position: relative;
   }
   
-  /*
-  **** Layout ****
-  */
-  
+  /*layout */  
   #area-cabecalho {
     display: flex;
     padding: 1px;
     background-color: #000000;
     width: 100%;
-    /* height: 100px; */
     position: fixed;
     top: 0;
     z-index: 99;
@@ -39,24 +34,17 @@
   }
   
   .logo {
-    /* display: flex; */
-    /* width: 250px; */
-    /* margin-left: 20em; */
-    /* padding-top: 25px; */
     padding: 0 15px;
   }
   
   .area-menu {
     display: flex center;
-    /* width: 100%; */
     margin: 5px;
     padding: 10px 16px;
     text-align: center;
   }
   
-  /*
-  **** Formatação Menu ****
-  */
+  /*formatação menu*/
   header {
     display: flex;
     justify-content: space-between;
@@ -85,18 +73,13 @@
   
   #area-icones {
     display: flex;
-    /* width: 220px; */
-    /* height: 80px; */
-    /* padding: 85px; */
   }
   
   a {
     text-decoration: none;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* padding: 10px; */
-    /* margin: 10px; */
-  }
+   }
   
   a:link,
   a:visited {
@@ -114,80 +97,15 @@
     text-decoration: underline;
   }
   
-  #divBusca {
-    background: #f28636;
-    border: solid 1px #f28636;
-    border-radius: 4px;
-    width: 550px;
-    height: 52px;
-    margin-bottom: 15px;
-    margin-left: 30px;
-  }
-  
-  #txtBusca {
-    float: left;
-    background-color: transparent;
-    padding-left: 10px;
-    font-size: 15px;
-    border: none;
-    margin: 16px;
-  }
   #icone {
     float: right;
     margin: 10px;
     padding: 5px;
   }
   
-  /* banner*/
-  
+  /* banner*/  
   .banner {
-    /* border: 2px solid red; */
     margin-top: 26px;
-  }
-  .banner2 {
-    padding: 25px;
-    width: 70%;
-    height: 280px;
-    margin-right: 50%;
-  }
-  
-  /* area lateral teste*/
-  #area-postagens {
-    width: 660px;
-    float: left;
-  }
-  
-  #area-lateral {
-    width: 280px;
-    height: 500px;
-    float: left;
-    border: 5px solid greenyellow;
-    margin: 5px;
-    padding: 42px;
-  }
-  
-  .postagem {
-    padding: 20px;
-    margin-bottom: 20px;
-    background: white;
-  }
-  
-  .categoria {
-    background: #fff;
-    padding: 15px;
-    margin-bottom: 20px;
-    margin: 20px;
-    border: 5px solid orange;
-  }
-  
-  .conteudo-lateral a {
-    text-decoration: none;
-  }
-  
-  .postagem-lateral {
-    font-size: 0.8em;
-    padding: 5px;
-    border-bottom: 1px dotted #ccc;
   }
   
   .clear {
@@ -201,7 +119,6 @@
     box-shadow: 3px 6px 12px #000;
     margin: 10px;
     float: left;
-    /* border: 2px solid yellow; */
     display: flex;
     flex-direction: column;
   }
@@ -211,14 +128,27 @@
     justify-content: center;
     flex-wrap: wrap;
     min-height: 900px;
-    /* border: 1px solid red; */
     flex-direction: row;
     width: 80%;
     margin: 0 auto;
   }
   
-  /* produtos */
+  @media (max-width: 1145px) {
+    #area-cabecalho {
+      flex-direction: column;
+    }
   
+    .banner {
+      margin-top: 154px;
+    }
+  }
+  
+  .imgbanner {
+    object-fit: cover;
+    width: 100%;
+  }
+
+  /* produtos */  
   .produto-nome {
     color: black;
     padding: 10px 5px;
@@ -239,8 +169,6 @@
   }
   
   .produto-botao {
-    /* border: 1px solid red; */
-    /* padding: 8px; */
     background: black;
     display: flex;
     align-items: center;
@@ -263,9 +191,7 @@
   
   .vitrine {
     max-width: 100%;
-    /* height: 900px; */
     margin: 0 auto;
-    /* border: 5px solid green; */
   }
   
   .vitrine h2 {
@@ -273,7 +199,6 @@
     color: black;
     margin: 13px 0;
     padding: 10px;
-    /* border-bottom: 1px solid #f28636; */
     font-size: 22px;
   }
   
@@ -289,19 +214,20 @@
     float: left;
     background-color: #f28636;
     color: #fff;
+    font-weight: 900px;
     text-align: center;
     cursor: pointer;
     border-radius: 5px;
     margin-left: 15px;
     padding: 15px;
-    border: 2px solid #294660;
   }
   
   section label:hover {
-    background-color: #294660;
+    background-color: orange;
     transition: 400ms;
   }
-  
+
+  /* filtro */  
   main section input {
     display: none;
     transition: 0.5s;
@@ -345,136 +271,37 @@
     flex-wrap: wrap;
     align-items: center;
   }
-  
-  /* ----- teste --- */
-  
-  #logo:hover {
-    position: relative;
-    animation: logo 1.2s linear 0s infinite;
-  }
-  
-  .container {
-    max-width: 80%;
-    padding: 5px;
-    margin: 0 auto;
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #f81e27;
-  }
-  
-  header input {
-    border-radius: 10px 0px 0px 10px;
-    width: 400px;
-    height: 50px;
-    padding: 10px;
-    border: 1px solid #f81e27;
-  }
-  
-  #links-header a {
-    padding: 5px;
-    font-size: 1.1em;
-    color: #f81e27;
-  }
-  
-  #links-header a:hover {
-    color: #000;
-  }
-  
-  #lupa {
-    background-color: #e4383e;
-    opacity: 0.9;
-    padding: 13px;
-    font-weight: bold;
-    margin-left: -5px;
-    border-radius: 0px 10px 10px 0px;
-  }
-  
-  #navigate-bar {
-    background: #f8444a;
-    margin-bottom: 10px;
-  }
-  
-  #navigate-bar ul {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  #navigate-bar li {
-    padding: 16px 42.7px;
-    font-size: 1em;
-  }
-  
-  #navigate-bar a:hover {
-    color: #fff;
-  }
-  
-  /*----------------------------------QUEM SOMOS----------------------------*/
-  
+   
+
   .flex-quemsomos {
     display: flex;
     margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
-  
-  .flex-quemsomos li {
-    margin: 10px;
-  }
-  
-  #quemsomos,
-  #contact {
-    padding: 10px;
-  }
-  
+
   #quemsomos2 {
     margin-top: 50px;
     padding-top: 50px;
     border-top: 1px solid #f81e27;
   }
-  .footerbaixo {
-    margin-bottom: 50px;
-  }
-  
-  #form-title {
-    margin: 30px 0px;
-  }
-  
-  #form-contato label {
-    display: block;
-  }
-  
-  #comentario-contato {
-    width: 600px;
-    height: 20vh;
-  }
-  
-  #submit-contato {
-    height: 5vh;
-    width: 150px;
-    margin-bottom: 20px;
-  }
-  
-  #wapp {
-    color: rgb(25, 218, 25);
-    font-size: 80px;
-  }
-  
-  #inst {
-    font-size: 80px;
-    color: #f30183;
-  }
-  
-  /*----------------------------------PAGINA DE PRODUTO----------------------------*/
-  
+    
+/* pagina do produto */  
   #column {
     display: flex;
     flex-direction: column;
   }
+
+  #columnsomos {
+    padding: 50px;
+  }
+  #columncontato {
+    padding: 134px;
+}
   
   #productpage-img {
-    width: 500px;
+    width: 350px;
+    padding: 13px;
   }
   
   .productsecundary {
@@ -485,45 +312,17 @@
     opacity: 1;
   }
   
-  #product-painel {
-    margin: 20px;
+  #produto {
+    margin: 110px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 500px;
+    align-items: center;
   }
   
-  #product-painel h2 {
-    font-size: 2em;
-  }
-  
-  #product-painel h3 {
-    font-size: 0.8em;
-    margin-top: -8px;
-  }
-  
-  #product-painel p {
+  #produto p {
     font-size: 1.1em;
-  }
-  
-  #vista {
-    color: gray;
-    font-size: 2em;
-  }
-  
-  #prazo {
-    color: gray;
-    font-size: 1.5em;
-  }
-  
-  .description {
-    margin-top: 30px;
-    padding-top: 30px;
-    border-top: 1px solid gray;
-  }
-  
-  .description ul {
-    margin-top: 20px;
   }
   
   #frete {
@@ -540,18 +339,12 @@
     margin: 0px;
   }
   
-  #calc-cep {
+  #calc-frete {
     padding: 5px;
     color: #000;
     font-weight: bolder;
   }
-  
-  #quantity {
-    margin: 0px 10px;
-    width: 40px;
-    height: 30px;
-  }
-  
+
   #pagamento {
     margin: 15px;
     color: black;
@@ -561,51 +354,41 @@
     width: 30%;
     height: 4vh;
     border-radius: 10px;
+    background: black;
+    padding: 5px;
+  }
+
+  .produto-botao:hover {
+    background-color: #f28636;
+    transition: 0.3s;
+  }
+
+  .imagem-galeria a:hover {
+    text-decoration: none !important;
   }
   
+
+  /*pagina quemsomos*/  
   .quemsomos {
-    margin: 0;
+    margin: 40px;
     text-align: center;
   }
   
   .quemsomos h2 {
-    padding: 30px;
+    padding: 52px;
   }
   
+  /*pagina contato*/
   .contato {
     text-align: center;
     width: 100%;
-    padding-left: 80%;
   }
   
   .contato h2 {
     padding: 30px;
   }
-  
-  .imagem-galeria a:hover {
-    text-decoration: none !important;
-  }
-  
-  .produto-botao:hover {
-    background-color: #f28636;
-    transition: 0.3s;
-  }
-  
-  @media (max-width: 1145px) {
-    #area-cabecalho {
-      flex-direction: column;
-    }
-  
-    .banner {
-      margin-top: 154px;
-    }
-  }
-  
-  .imgbanner {
-    object-fit: cover;
-    width: 100%;
-  }
-  
+    
+  /* rodapé */
   footer {
     display: flex;
     align-items: center;
@@ -629,7 +412,6 @@
   
   .footer-icons a {
     font-size: 2em;
-    /* color: red; */
     padding: 5px;
   }
   
@@ -639,3 +421,4 @@
     }
   }
   
+
