@@ -12,171 +12,149 @@
     <title>Maxproseg.com.br - O Máximo de Segurança Eletrônico</title>
 </head>
 <body>
-    <div class="container">            
-        <header id="area-cabecalho">
-            <div>
-
-            </div>
-
-            <div>
-                <img src="img/logo.png" alt="logo" class="logo">                                     
-            </div>
-            <div id="divBusca">
-                <input type="text" name="busca" id="txtBusca" placeholder="Digite o que você procura..."> 
-                <i class="fas fa-search" id="icone"></i>
-            </div>
-           <div id="area-icones">
-                <ul>
-                    <li>
-                        <i class="far fa-user fa-2x"></i>
-                    </li>
-                    <li>
-                        <i class="far fa-heart fa-2x"></i>
-                    </li>
-                    <li>
-                       <i class="fas fa-shopping-cart fa-2x"></i>
-                    </li>
-                </ul>    
-          </div>                   
-              
-        </header>
-        <main>
-            <div>
-            
-                 <nav class="area-menu">
-                    <a href="index.html" class="home">Home</a>
-                    <a href="quemsomos.html" class="quemsomos">Quem somos</a>
-                    <a href="produtos.html" class="produtos">Produtos</a>
-                    <a href="blackfriday.html" class="blackfriday">Promoção Black Friday</a>
-                    <a href="contato.html" class="contato">Fale Conosco</a>                                
-                </nav> 
-
-             <div id="area-lateral">
-			    
-              <div class="conteudo-lateral">
-                        <h3>POSTAGEM RECENTES</h3>
-                        
-                        <div class="postagem-lateral">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <a href="">Leia mais</a>
-                        </div>
-        
-                        <div class="postagem-lateral" style="border-bottom: none;">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <a href="">Leia mais</a>
-                        </div>
-        
-                </div> 
-                
-
-               <div class="conteudo-lateral">
-                    <h3>CATEGORIAS</h3>
-                    <br>
-                    <a href="">CFTV</a><br>
-                    <a href="">INTERFONIA</a><br>
-                    <a href="">FECHADURAS</a><br>
-                    <a href="">ALARME</a><br>
-                    <a href="">FERRAMENTAS</a><br>
-                    <a href="">TELEFONIA</a><br>
-                </div> 
-            </div>   
-                    <!-- ínicio vitrine produtos-->
-				<div class="imagem-galeria">
-					<img src="img/imagem1.jpg">
-                    <div class="produto-nome">
-                        Cam Bullet CX-3020 IR20 HD+ 2.0MP 3,6mm 4x1
-                    </div>
-                    <div class="produto-preco">
-                         <span>R$ 118,00</span>
-                    </div>
-                    <div class="produto-pagamento">
-                        <span>R$ 112,10 à vista com desconto</span>
-                        <br>
-                        <span>ou 12x de R$ 12,18 com juros</span>
-                    </div> 
-                    <div class="produto-botao">
-                        <a href="contato.html"><span class="compras">Comprar</span>
-                       <span class="shop"><i class="fas fa-shopping-cart fa-1x fa-flip-horizontal"></i></span></a>
-                    </div>                      
+        <!-- inicio header-->  
+        <header id="area-cabecalho">       
+                <div>
+                    <img src="img/logo2.png" alt="logo" class="logo">                                     
                 </div>
+            
+            <nav class="area-menu">
+                <a href="index.html" class="home">Home</a>                
+                <a href="produtos.html" class="produtos">Produtos</a>
+                <a href="blackfriday.html" class="blackfriday">Promoção Black Friday</a>
+                <a href="quemsomos.html" target="_self" class="sobre">Quem somos</a>
+                <a href="contato.html" class="contato">Fale Conosco</a>                                
+            </nav>       
+            
+            <div id="area-icones">
+                <ul>
+                    <li><i class="far fa-user fa-2x"></i></li>
+                    <li><i class="far fa-heart fa-2x"></i></li>
+                    <li><i class="fas fa-shopping-cart fa-2x"></i></li>
+                </ul>    
+           </div>         
+        </header>
+       <!--fim header-->
+
+                 <!--início-banner-->             
+                <section class="banner">
+                    <img src="img/1.png" alt="">
+                </section> 
+                <!--fim-banner-->
+
+               <main class="vitrine">
+                <section>  
+                    <h2>Confira nossos produtos em destaque</h2>
+                    <div class="filtro">
+                        <input type="radio" name="btn" id="btn_todas" checked >
+                        <label for="btn_todas">Todas</label>
+                        <input type="radio" name="btn" id="btn_cftv" checked >
+                        <label for="btn_cftv">CFTV</label>
+                        <input type="radio" name="btn" id="btn_interfonia" checked >
+                        <label for="btn_intefonia">Interfonia</label>
+                        <input type="radio" name="btn" id="btn_fechadura" checked >
+                        <label for="btn_fechadura">Fechaduras</label>
+                   </div>
+                    <div class="clear"></div>
+
+                <div class="todas-imagens">  <!-- ínicio vitrine produtos-->
+
+                     <div class="imagem-galeria">   
+                      <img src="img/imagem1.jpg">
+                        <div class="produto-nome">
+                            Cam Bullet CX-3020 IR20 HD+ 2.0MP 3,6mm 4x1
+                        </div>
+                        <div class="produto-preco">
+                            <span>R$ 118,00</span>
+                        </div>
+                        <div class="produto-pagamento">
+                            <span>R$ 112,10 à vista com desconto</span>
+                            <br>
+                            <span>ou 12x de R$ 12,18 com juros</span>
+                        </div> 
+                        <div class="produto-botao">
+                            <a href="cftv.html" target="_parent"><span class="compras">Comprar</span>
+                            <span class="shop"><i class="fas fa-shopping-cart fa-1x fa-flip-horizontal"></i></span></a>
+                        </div>                      
+                    </div>
                 
-                <div class="imagem-galeria">
-					<img src="img/imagem2.jpg">
-                    <div class="produto-nome">
-                        Dome CX-3020D IR20 HD+ 2.0Mp 1080P 3.6mm 4x1
-                    </div>
-                    <div class="produto-preco">
-                         <span>R$ 115,00</span>
-                    </div>
-                    <div class="produto-pagamento">
-                        <span>R$ 109,25 à vista com desconto</span>
-                        <br>
-                        <span>ou 12x de R$ 11,87 com juros</span>
-                    </div> 
-                    <div class="produto-botao">
-                        <span class="compras">Comprar</span>
-                        <span class="shop"><i class="fas fa-shopping-cart fa-1x fa-flip-horizontal"></i></span>
-                    </div>                        
-				</div>
+                 <div class="imagem-galeria">
+                        <img src="img/imagem2.jpg">
+                        <div class="produto-nome">
+                            Dome CX-3020D IR20 HD+ 2.0Mp 1080P 3.6mm 4x1
+                        </div>
+                        <div class="produto-preco">
+                            <span>R$ 115,00</span>
+                        </div>
+                        <div class="produto-pagamento">
+                            <span>R$ 109,25 à vista com desconto</span>
+                            <br>
+                            <span>ou 12x de R$ 11,87 com juros</span>
+                        </div> 
+                        <div class="produto-botao">
+                            <span class="compras">Comprar</span>
+                            <span class="shop"><i class="fas fa-shopping-cart fa-1x fa-flip-horizontal"></i></span>
+                        </div>                        
+				 </div>
 
-                <div class="imagem-galeria">
-					<img src="img/imagem3.jpg">
-                    <div class="produto-nome">
-                        Porteiro Eletrônico Residencial P200 Interna
-                    </div>
-                    <div class="produto-preco">
-                         <span>R$ 125,00</span>
-                    </div>
-                    <div class="produto-pagamento">
-                        <span>R$ 118,75 à vista com desconto</span>
-                        <br>
-                        <span>ou 12x de R$ 12,90 com juros</span>
-                    </div> 
-                    <div class="produto-botao">
-                        <span class="compras">Comprar</span>
-                        <span class="shop"><i class="fas fa-shopping-cart fa-1x fa-flip-horizontal"></i></span>
-                    </div>                        
-				</div>
+                 <div class="imagem-galeria">
+                        <img src="img/imagem3.jpg">
+                        <div class="produto-nome">
+                            Porteiro Eletrônico Residencial P200 Interna
+                        </div>
+                        <div class="produto-preco">
+                            <span>R$ 125,00</span>
+                        </div>
+                        <div class="produto-pagamento">
+                            <span>R$ 118,75 à vista com desconto</span>
+                            <br>
+                            <span>ou 12x de R$ 12,90 com juros</span>
+                        </div> 
+                        <div class="produto-botao">
+                            <span class="compras">Comprar</span>
+                            <span class="shop"><i class="fas fa-shopping-cart fa-1x fa-flip-horizontal"></i></span>
+                        </div>                        
+				 </div>
 
-                <div class="imagem-galeria">
-					<img src="img/imagem4.jpg">
-                    <div class="produto-nome">
-                        Dvr OPEN HD LITE 1080N 8 Canais GS0083
-                    </div>
-                    <div class="produto-preco">
-                         <span>R$ 435,00</span>
-                    </div>
-                    <div class="produto-pagamento">
-                        <span>R$ 413,25 à vista com desconto</span>
-                        <br>
-                        <span>ou 12x de R$ 44,91 com juros</span>
-                    </div> 
-                    <div class="produto-botao">
-                        <span class="compras">Comprar</span>
-                        <span class="shop"><i class="fas fa-shopping-cart fa-1x fa-flip-horizontal"></i></span>
-                    </div>                        
-				</div>
+                 <div class="imagem-galeria">
+                        <img src="img/imagem4.jpg">
+                        <div class="produto-nome">
+                            Dvr OPEN HD LITE 1080N 8 Canais GS0083
+                        </div>
+                        <div class="produto-preco">
+                            <span>R$ 435,00</span>
+                        </div>
+                        <div class="produto-pagamento">
+                            <span>R$ 413,25 à vista com desconto</span>
+                            <br>
+                            <span>ou 12x de R$ 44,91 com juros</span>
+                        </div> 
+                        <div class="produto-botao">
+                            <span class="compras">Comprar</span>
+                            <span class="shop"><i class="fas fa-shopping-cart fa-1x fa-flip-horizontal"></i></span>
+                        </div>                        
+				 </div>
 
-                <div class="imagem-galeria">
-					<img src="img/imagem5.jpg">
-                    <div class="produto-nome">
-                        Fechadura Elétrica Mini 12V AGL-INHA
-                    </div>
-                    <div class="produto-preco">
-                         <span>R$ 125,00</span>
-                    </div>
-                    <div class="produto-pagamento">
-                        <span>R$ 118,75 à vista com desconto</span>
-                        <br>
-                        <span>ou 12x de R$ 12,90 com juros</span>
-                    </div> 
-                    <div class="produto-botao">
-                        <span class="compras">Comprar</span>
-                        <span class="shop"><i class="fas fa-shopping-cart fa-1x fa-flip-horizontal"></i></span>
-                    </div>                        
-				</div>
+                 <div class="imagem-galeria">
+                        <img src="img/imagem5.jpg">
+                        <div class="produto-nome">
+                            Fechadura Elétrica Mini 12V AGL-INHA
+                        </div>
+                        <div class="produto-preco">
+                            <span>R$ 125,00</span>
+                        </div>
+                        <div class="produto-pagamento">
+                            <span>R$ 118,75 à vista com desconto</span>
+                            <br>
+                            <span>ou 12x de R$ 12,90 com juros</span>
+                        </div> 
+                        <div class="produto-botao">
+                            <span class="compras">Comprar</span>
+                            <span class="shop"><i class="fas fa-shopping-cart fa-1x fa-flip-horizontal"></i></span>
+                        </div>                        
+				 </div>
 
-                <div class="imagem-galeria">
+                 <div class="imagem-galeria">
 					<img src="img/imagem6.jpg">
                     <div class="produto-nome">
                         Fonte Chaveada Estabilizada 12v/10A Bivolt CFTV
@@ -189,16 +167,18 @@
                         <br>
                         <span>ou 12x de R$ 3,10 com juros</span>
                     </div> 
+
                     <div class="produto-botao">
                         <span class="compras">Comprar</span>
                         <span class="shop"><i class="fas fa-shopping-cart fa-1x fa-flip-horizontal"></i></span>
-                    </div>                        	
-				</div> <!-- fim vitrine produtos-->
-          
+                    </div>    
+            
+                    </div> <!-- fim vitrine produtos-->
+                </div>
             </section>     
         </main>    
 
 
-    </div>
+  
 </body>
 </html>

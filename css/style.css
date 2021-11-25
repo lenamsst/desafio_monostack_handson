@@ -5,16 +5,16 @@
 }
 
 body {
-    background-color: #f28636;
+    background-color:#ffff ;
+    padding-top: 80px;
+    max-width: 100%;
 }
 
 .container {
-    text-align: center;
-    width: 100%;
-    margin: 0 auto;
+    max-width: 100%;
     background-color: #fff;
-    border: 2px solid red;
-   
+    border: 2px solid green;
+    position: relative;
 }
 
 /*
@@ -24,22 +24,30 @@ body {
 #area-cabecalho {
      display: flex;
      padding: 1px;
-     background-color: #fff;
-     max-width: 100%;
-     height: 140px;
+     background-color: #000000;
+     width: 100%;
+     height: 100px;
+     position: fixed;
+     top: 0;
+     z-index: 99;
+     top: 0;
+     left: 0;
+     right: 0;
   }
 
 .logo {
     display: flex;
-    width: 200px; 
-    margin-right: 50px;
+    width: 250px; 
+    margin-left: 20em;
+    padding-top: 25px;
 }
 
 .area-menu {
     display: flex center;
     width: 100%;
     margin: 5px;
-    padding: 15px;
+    padding: 60px;
+    
   }
 
 /*
@@ -77,9 +85,10 @@ ul {
 
 #area-icones {
     display: flex;
-    width: 200px;
-    height: 60px;
-    padding: 50px;
+    width: 220px;
+    height: 80px;
+    padding: 85px;
+
 }
 
 a {
@@ -135,12 +144,12 @@ a:hover {
 
 /* banner*/
 
-.banner1 {
-    width: 1024px;
-    float: right;
+.banner {
+    background-color: #0d0d0d;
+    width: 80%;
+    border: 2px solid red;
+    padding-left: 19%
 }
-
-          
 .banner2 {
     padding: 25px;
     width: 70%;
@@ -159,6 +168,9 @@ a:hover {
 	width: 280px;
     height: 500px;
 	float: left;
+    border: 5px solid greenyellow;
+    margin: 5px;
+    padding: 42px;
 }
 
 .postagem{
@@ -167,11 +179,12 @@ a:hover {
 	background: white;
 }
 
-.conteudo-lateral {
-	background: white;
+.categoria {
+	background: #fff;
 	padding: 15px;
     margin-bottom: 20px;
     margin: 20px;
+    border: 5px solid orange;
 }
 
 .conteudo-lateral a {
@@ -189,13 +202,23 @@ a:hover {
 }
 
 .imagem-galeria {
-	background: white;
-	width: 265px;
-	padding: 5px;
-	float: left;
-	margin: 15px;
+    width: 250px;
+    max-height: 420px;
+    background-color: #fff;
+    box-shadow: 3px 6px 12px #000;
+    margin: 10px;
+    float: left;
+    border: 2px solid yellow;
 }
 
+.todas-imagens {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 900px;
+    border: 1px solid red;
+
+}
 
 /* produtos */
 
@@ -207,13 +230,14 @@ a:hover {
 
 .produto-preco {
     color: black;
-    font-size: 1.2em;
+    font-size: 2.0em;
     font-weight: 600;
 }
 
 .produto-pagamento {
     color: gray;
-    padding-bottom: 25px;
+    padding-bottom: 5px;
+    
 }
 
 .produto-botao {
@@ -233,4 +257,310 @@ a:hover {
     color: #fff;
 }
 
+.main .vitrine {
+    margin-bottom: 15px;
+}
 
+.vitrine {
+    max-width: 100%;
+    height: 900px;
+    margin: 0 auto;
+    border: 5px solid green;
+}
+
+.vitrine h2 {
+    text-align: center;
+    color: black;
+    margin: 20px 0;
+    padding: 10px;
+    border-bottom: 1px solid #f28636;
+    font-size: 22px;
+}
+
+.vitrine h3 {
+    padding: 5px;
+}
+
+/*seletores de filtro*/
+main section label{
+    width: 100px;
+    padding: 10px;
+    display: block;
+    float: left;
+    background-color: #f28636;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 15px;
+    padding: 15px;
+    border: 2px solid #294660;
+  }
+
+section label:hover{
+    background-color: #294660;
+    transition: 400ms;
+
+}
+
+main section input{
+    display: none;
+
+}
+
+.clear{
+    clear: both;
+}
+
+.filtro {
+ padding-left: 35%;
+ padding-bottom: 5%;
+ padding-top: 1%;
+}
+
+/* ----- teste --- */
+
+
+#logo:hover{
+    position: relative;
+    animation: logo 1.2s linear 0s infinite;
+}
+
+.container{
+    max-width: 80%;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F81E27;
+}
+
+header input{
+    border-radius: 10px 0px 0px 10px;
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #F81E27;
+}
+
+#links-header a{
+    padding: 5px;
+    font-size: 1.1em;
+    color: #F81E27;
+}
+
+#links-header a:hover{
+    color: #000;
+}
+
+#lupa{
+    background-color: #e4383e;
+    opacity: 0.9;
+    padding: 13px;
+    font-weight: bold;
+    margin-left: -5px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#navigate-bar{
+    background:#f8444a;
+    margin-bottom: 10px;
+}
+
+#navigate-bar ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#navigate-bar li{
+    padding: 16px 42.7px;  
+    font-size: 1em;
+    
+}
+
+#navigate-bar a:hover{
+    color: #fff;
+}
+
+
+
+
+
+
+/*----------------------------------QUEM SOMOS----------------------------*/
+
+.flex-quemsomos{
+    display: flex;
+    margin-top: 30px;
+}
+
+.flex-quemsomos li{
+    margin: 10px;
+}
+
+#quemsomos, #contact{
+    padding: 10px;
+}
+
+#quemsomos2{
+    margin-top: 50px;
+    padding-top: 50px;
+    border-top: 1px solid #F81E27;
+}
+.footerbaixo{
+    margin-bottom: 50px;
+}
+
+#form-title{
+    margin: 30px 0px;
+}
+
+#form-contato label{
+    display: block;
+}
+
+
+#comentario-contato{
+    width: 600px;
+    height: 20vh;
+}
+
+#submit-contato{
+    height: 5vh;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+#wapp{
+    color: rgb(25, 218, 25);
+    font-size: 80px;
+}
+
+#inst{
+    font-size: 80px;
+    color: #F30183;
+}
+
+/*----------------------------------PAGINA DE PRODUTO----------------------------*/
+
+#column{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#productpage-img{
+    width: 500px;
+}
+
+.productsecundary{
+    width: 130px;
+}
+
+.productsecundary:hover{
+    opacity:1;
+}
+
+#product-painel{
+   margin: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 500px;
+}
+
+#product-painel h2{
+    font-size: 2em;
+}
+
+#product-painel h3{
+    font-size: 0.8em;  
+    margin-top: -8px;
+}
+
+#product-painel p{
+ font-size:1.1em;
+}
+
+#vista{
+    color: gray;
+    font-size: 2.0em;
+}
+
+#prazo{
+    color: gray;
+    font-size: 1.5em;
+}
+
+.description{
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid gray;
+}
+
+.description ul{
+    margin-top: 20px;
+}
+
+#frete{
+    display: flex;
+}
+
+#frete p{
+    font-size: 1em;
+}
+
+#cep{
+    width: 120px;
+    height: 30px;
+    margin: 0px;
+;
+}
+
+#calc-cep{
+    padding: 5px;
+    color: #000;
+    font-weight: bolder;
+}
+
+#quantity{
+    margin: 0px 10px;
+    width: 40px;
+    height: 30px;
+}
+
+#pagamento {
+
+    margin: 15px;
+    color: black;
+}
+
+.botao{
+    width: 30%;
+    height: 4vh;
+    border-radius: 10px;    
+}
+
+.quemsomos {
+    margin: 0;
+    text-align: center;
+}
+
+.quemsomos h2 {
+    padding: 30px;
+}
+
+.contato {
+    text-align: center;
+    width: 100%;
+    padding-left: 80%;
+}
+
+.contato h2 {
+    padding: 30px;
+  
+}
