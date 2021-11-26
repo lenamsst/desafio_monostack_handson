@@ -34,7 +34,7 @@ Somos parte de uma equipe de desenvolvimento de websites e fomos contratados par
 ### 🎁 Expressões de gratidão
 
 * Gratidão a Deus por ter me sustentado (Quase surtei kkkk)
-* Gratidão a professora por toda dedicação 📢🤓
+* Gratidão a professora Alice Paixão por toda dedicação 📢🤓
 * Gratidão aos meus colegas de stack 📢🤓
 
 
