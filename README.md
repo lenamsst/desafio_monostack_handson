@@ -33,9 +33,9 @@ Somos parte de uma equipe de desenvolvimento de websites e fomos contratados par
 
 ### 🎁 Agradecimentos Especiais:
 
-* A Deus por ter me sustentado (Quase surtei kkkk)
-* A professora Alice Paixão por toda dedicação 📢🤓
-* Gratidão aos meus colegas de stack 📢🤓
+* 📢  A Deus por ter me sustentado (Quase surtei kkkk) :raised_hands:
+* 📢 A professora Alice Paixão por toda dedicação :two_hearts:
+* 📢 Gratidão aos meus colegas de stack :facepunch:
 
 
 ---
