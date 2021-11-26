@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 =======
 ## 🚀  Ecommerce Maxproseg (1º Desafio Individual Gama Academy - XP40)
 
@@ -42,4 +41,3 @@ Somos parte de uma equipe de desenvolvimento de websites e fomos contratados par
 
 ---
 ⌨️ com ❤️ Milena Garcia [Acessar Projeto](https://lenamsst.github.io/projeto_ecommerce_maxproseg/index.html) 😊
->>>>>>> fb3ac92c26864a370f2152e78569cc6712a9f9e4
