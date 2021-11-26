@@ -25,16 +25,16 @@ Somos parte de uma equipe de desenvolvimento de websites e fomos contratados par
 - HTML5
 - CSS3
 
-### 🛠️ Construído com
+### 🛠️ Construído com:
 
 * VisualCode
 * Chrome Devtools
 * Adobe Photoshop 
 
-### 🎁 Expressões de gratidão
+### 🎁 Agradecimentos Especiais:
 
-* Gratidão a Deus por ter me sustentado (Quase surtei kkkk)
-* Gratidão a professora Alice Paixão por toda dedicação 📢🤓
+* A Deus por ter me sustentado (Quase surtei kkkk)
+* A professora Alice Paixão por toda dedicação 📢🤓
 * Gratidão aos meus colegas de stack 📢🤓
 
 
